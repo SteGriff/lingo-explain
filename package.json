@@ -1,0 +1,24 @@
+{
+  "name": "lingo-explain",
+  "version": "1.0.0",
+  "description": "Explain foreign language phrases with LLM",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stegriff/lingo-explain.git"
+  },
+  "author": "Ste Griffiths",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stegriff/lingo-explain/issues"
+  },
+  "homepage": "https://github.com/stegriff/lingo-explain#readme",
+  "dependencies": {
+    "openai": "^4.85.3",
+    "zod": "^3.24.2"
+  }
+}
