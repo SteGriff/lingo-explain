@@ -28,8 +28,9 @@ Out
 
 Good!
 
-
+```
 const devPrompt = `Explain the ${targetLanguage} sentence by breaking down the meaning and purpose of each word`;
 const devPrompt2 = `Explain the ${targetLanguage} sentence word-by-word`;
 const userPrompt = "Thái độ quan trọng hơn trình độ";
 const userPrompt2 = "Tôi sẽ cố gắng viết thư cho cô ấy vào thứ năm tuần tới";
+```
