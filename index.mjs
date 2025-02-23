@@ -1,8 +1,5 @@
 import OpenAI from 'openai';
-import { zodResponseFormat } from "openai/helpers/zod";
-import { z } from "zod";
-
-console.log("key", process.env["OPENAI_API_KEY"]);
+import { responseFormat } from './responseFormat.mjs';
 
 const openai = new OpenAI(); // key defaults to process.env["OPENAI_API_KEY"]
 
@@ -12,15 +9,6 @@ async function main() {
     // The output will be displayed as a number of bullet points
     // Each term-definition pair should be a JSON array member in the GPT response
     // Build a schema to get this response using zod
-
-    const explanationTerm = z.object({
-        term: z.string(),
-        definition: z.string()
-    });
-    const explanationFormat = z.object({
-        explanation: z.array(explanationTerm)
-    });
-    const responseFormat = zodResponseFormat(explanationFormat, "explanation");
 
     const targetLanguage = "Vietnamese";
     const devPrompt = `Explain the ${targetLanguage} sentence word-by-word`;
@@ -38,6 +26,11 @@ async function main() {
     });
 
     console.log(completion.choices);
+    const answerJson = completion.choices[0].message.content;
+    const answer = JSON.parse(answerJson);
+    for (const explanation of answer.explanation) {
+        console.log(`${explanation.term}: ${explanation.definition}`);
+    }
 }
 
 main();

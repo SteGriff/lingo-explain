@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "schema": "node schemaBuild.mjs",
+    "start": "node index.mjs"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,9 @@
   },
   "homepage": "https://github.com/stegriff/lingo-explain#readme",
   "dependencies": {
-    "openai": "^4.85.3",
+    "openai": "^4.85.3"
+  },
+  "devDependencies": {
     "zod": "^3.24.2"
   }
 }
