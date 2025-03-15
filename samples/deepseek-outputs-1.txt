@@ -1,0 +1,189 @@
+DEEPSEEK
+========================================
+Language: French
+----------------------------------------
+Explain: Il y a toujours quelque chose d’intéressant à découvrir en ville.
+deepseek deepseek-chat
+Il y a: there is
+toujours: always
+quelque chose: something
+d’intéressant: interesting
+à découvrir: to discover
+en ville: in the city
+----------------------------------------
+Explain: Il prend toujours le train tôt le matin pour éviter la foule.
+deepseek deepseek-chat
+Il: he
+prend: takes
+toujours: always
+le train: the train
+tôt: early
+le matin: in the morning
+pour éviter: to avoid
+la foule: the crowd
+========================================
+Language: Spanish
+----------------------------------------
+Explain: Aunque hace frío, muchas personas van a la playa por la tarde.
+deepseek deepseek-chat
+Aunque: although
+hace frío: it's cold
+muchas personas: many people
+van: go
+a la playa: to the beach
+por la tarde: in the afternoon
+----------------------------------------
+Explain: Los niños juegan en el parque después de la escuela, incluso cuando llueve un poco.
+deepseek deepseek-chat
+Los niños: the children
+juegan: play
+en el parque: in the park
+después de: after
+la escuela: school
+incluso: even
+cuando: when
+llueve: rains
+un poco: a little
+========================================
+Language: Vietnamese
+----------------------------------------
+Explain: Mỗi buổi sáng, anh ấy đều uống cà phê trước khi đi làm.
+deepseek deepseek-chat
+Mỗi: every
+buổi sáng: morning
+anh ấy: he
+đều: always
+uống: drink
+cà phê: coffee
+trước khi: before
+đi làm: go to work
+----------------------------------------
+Explain: Cô ấy thường nấu ăn ở nhà thay vì đi ăn ngoài.
+deepseek deepseek-chat
+Cô ấy: she
+thường: often
+nấu ăn: cook
+ở nhà: at home
+thay vì: instead of
+đi ăn ngoài: eat out
+========================================
+Language: Japanese
+----------------------------------------
+Explain: 駅の近くには、おいしいレストランがたくさんあります。
+deepseek deepseek-chat
+駅: station
+近く: nearby
+おいしい: delicious
+レストラン: restaurant
+たくさん: many
+あります: there are
+----------------------------------------
+Explain: 日曜日には、友達と一緒に映画を見に行くことが多いです。
+deepseek deepseek-chat
+日曜日: Sunday
+には: on
+友達: friends
+と一緒に: together with
+映画: movie
+を見に: to watch
+行く: go
+ことが多い: often do
+です: is
+========================================
+Language: German
+----------------------------------------
+Explain: Am Wochenende gehen wir oft in den Park, wenn das Wetter schön ist.
+deepseek deepseek-chat
+Am Wochenende: on the weekend
+gehen: go
+wir: we
+oft: often
+in den Park: to the park
+wenn: when
+das Wetter: the weather
+schön: nice
+ist: is
+----------------------------------------
+Explain: Er liest die Zeitung jeden Morgen, bevor er zur Arbeit geht.
+deepseek deepseek-chat
+Er: he
+liest: reads
+die Zeitung: the newspaper
+jeden Morgen: every morning
+bevor: before
+er: he
+zur Arbeit geht: goes to work
+========================================
+Language: Portuguese
+----------------------------------------
+Explain: Ela sempre lê um livro antes de dormir, mesmo quando está cansada.
+deepseek deepseek-chat
+Ela: she
+sempre: always
+lê: reads
+um livro: a book
+antes de dormir: before sleeping
+mesmo quando: even when
+está cansada: is tired
+----------------------------------------
+Explain: Nos dias quentes, eles gostam de caminhar na praia ao pôr do sol.
+deepseek deepseek-chat
+Nos dias: on the days
+quentes: hot
+eles: they
+gostam: like
+de caminhar: to walk
+na praia: on the beach
+ao pôr do sol: at sunset
+========================================
+Language: Mandarin
+----------------------------------------
+Explain: 每个星期六，他都会去市场买新鲜的蔬菜和水果。
+deepseek deepseek-chat
+每个: every
+星期六: Saturday
+他: he
+都会: always
+去: go
+市场: market
+买: buy
+新鲜的: fresh
+蔬菜: vegetables
+和: and
+水果: fruits
+========================================
+Language: Taiwanese
+----------------------------------------
+Explain: 伊逐工攏食一碗麵仔做早餐。
+deepseek deepseek-chat
+伊: he/she
+逐工: every day
+攏: all
+食: eat
+一碗: a bowl
+麵仔: noodles
+做: as
+早餐: breakfast
+========================================
+Language: Yoruba
+----------------------------------------
+Explain: Nigbati ojo ba n ro, mo maa n joko ninu ile ki n ka iwe.
+deepseek deepseek-chat
+Nigbati: when
+ojo ba n ro: it rains
+mo maa n joko: I usually sit
+ninu ile: inside house
+ki n ka iwe: to read book
+========================================
+Language: Swedish
+----------------------------------------
+Explain: På sommaren brukar vi cykla till sjön och bada.
+deepseek deepseek-chat
+På sommaren: in summer
+brukar: usually
+vi: we
+cykla: cycle
+till: to
+sjön: the lake
+och: and
+bada: swim

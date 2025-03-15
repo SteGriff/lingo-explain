@@ -1,0 +1,225 @@
+OPENAI GPT-4O-MINI
+========================================
+Language: French
+----------------------------------------
+Explain: Il y a toujours quelque chose d’intéressant à découvrir en ville.
+openai gpt-4o-mini
+Il y a: There is
+toujours: always
+quelque chose: something  
+d’intéressant: interesting
+à découvrir: to discover  
+en ville: in the city
+----------------------------------------
+Explain: Il prend toujours le train tôt le matin pour éviter la foule.
+openai gpt-4o-mini
+Il: He
+prend: takes
+toujours: always
+le train: the train
+tôt: early
+le matin: in the morning
+pour: to
+éviter: avoid
+la foule: the crowd
+========================================
+Language: Spanish
+----------------------------------------
+Explain: Aunque hace frío, muchas personas van a la playa por la tarde.
+openai gpt-4o-mini
+Aunque: despite the fact
+hace: it is
+frío: cold weather
+muchas: many
+personas: people
+van: go
+a: to
+la: the
+playa: beach
+por: in/for
+la tarde: the afternoon
+----------------------------------------
+Explain: Los niños juegan en el parque después de la escuela, incluso cuando llueve un poco.
+openai gpt-4o-mini
+Los: The (plural)
+niños: children
+juegan: play
+en: in
+el: the (singular)
+parque: park
+después: after
+de: of
+la: the (singular)
+escuela: school
+incluso: even
+cuando: when
+llueve: rains
+un: a (singular)
+poco: little
+========================================
+Language: Vietnamese
+----------------------------------------
+Explain: Mỗi buổi sáng, anh ấy đều uống cà phê trước khi đi làm.
+openai gpt-4o-mini
+Mỗi buổi sáng: Every morning
+anh ấy: he
+đều: always
+uống: drink
+cà phê: coffee
+trước khi: before
+đi làm: go to work
+----------------------------------------
+Explain: Cô ấy thường nấu ăn ở nhà thay vì đi ăn ngoài.
+openai gpt-4o-mini
+Cô ấy: She
+thường: often
+nấu ăn: cook food
+ở nhà: at home
+thay vì: instead of
+đi ăn: going out to eat
+ngoài: outside
+========================================
+Language: Japanese
+----------------------------------------
+Explain: 駅の近くには、おいしいレストランがたくさんあります。
+openai gpt-4o-mini
+駅: Train station
+の: Possessive particle
+近く: Nearby area
+には: At/To (location) particle
+おいしい: Tasty/delicious
+レストラン: Restaurant
+が: Subject marker
+たくさん: Many/a lot
+あります: Exist/are available
+----------------------------------------
+Explain: 日曜日には、友達と一緒に映画を見に行くことが多いです。
+openai gpt-4o-mini
+日曜日: Sunday
+には: on (contextual marker)
+友達: friends
+と: with
+一緒に: together
+映画: movie
+を: (object marker)
+見に行く: go to see
+こと: thing (abstract)
+が: (subject marker)
+多い: often
+です: is (polite)
+。: period (end of sentence)
+========================================
+Language: German
+----------------------------------------
+Explain: Am Wochenende gehen wir oft in den Park, wenn das Wetter schön ist.
+openai gpt-4o-mini
+Am Wochenende: On weekends
+gehen: go
+wir: we
+oft: often
+in den Park: to the park
+wenn: when
+das Wetter: the weather
+schön: nice
+ist: is
+----------------------------------------
+Explain: Er liest die Zeitung jeden Morgen, bevor er zur Arbeit geht.
+openai gpt-4o-mini
+Er: He
+liest: reads
+die Zeitung: the newspaper
+jeden Morgen: every morning
+bevor: before
+er: he
+zur Arbeit: to work
+geht: goes
+========================================
+Language: Portuguese
+----------------------------------------
+Explain: Ela sempre lê um livro antes de dormir, mesmo quando está cansada.
+openai gpt-4o-mini
+Ela: she
+sempre: always
+lê: reads
+um: a
+livro: book
+antes: before
+de: of
+dormir: sleeping
+,: separator
+mesmo: even
+quando: when
+está: is
+cansada: tired
+----------------------------------------
+Explain: Nos dias quentes, eles gostam de caminhar na praia ao pôr do sol.
+openai gpt-4o-mini
+Nos: In the
+dias: days
+quentes: hot
+eles: they
+gostam: like
+de: of
+caminhar: to walk
+na: at the
+praia: beach
+ao: at the
+pôr do sol: sunset
+========================================
+Language: Mandarin
+----------------------------------------
+Explain: 每个星期六，他都会去市场买新鲜的蔬菜和水果。
+openai gpt-4o-mini
+每个: every single
+星期六: Saturday
+他: he
+都会: always will
+去: go to
+市场: market
+买: buy
+新鲜的: fresh
+蔬菜: vegetables
+和: and
+水果: fruits
+========================================
+Language: Taiwanese
+----------------------------------------
+Explain: 伊逐工攏食一碗麵仔做早餐。
+openai gpt-4o-mini
+伊逐: 他們/她們
+工攏: 工人們
+食: 吃
+一碗: 一份/一個碗
+麵仔: 麵條
+做: 作為
+早餐: 早晨餐食
+========================================
+Language: Yoruba
+----------------------------------------
+Explain: Nigbati ojo ba n ro, mo maa n joko ninu ile ki n ka iwe.
+openai gpt-4o-mini
+Nigbati: When
+ojo: rain
+ba n ro: is falling
+mo: I
+maa n: often
+joko: sit
+ninu: inside
+ile: house
+ki n: to
+ka: read
+iwe: book
+========================================
+Language: Swedish
+----------------------------------------
+Explain: På sommaren brukar vi cykla till sjön och bada.
+openai gpt-4o-mini
+På: At/On
+sommaren: The summer
+brukar: Usually/Typically
+vi: We
+cykla: Cycle/Bike
+till: To
+sjön: The lake
+och: And
+bada: Swim

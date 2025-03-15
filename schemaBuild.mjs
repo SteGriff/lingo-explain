@@ -9,10 +9,11 @@ const explanationTerm = z.object({
 const explanationFormat = z.object({
     explanation: z.array(explanationTerm)
 });
-const responseFormat = zodResponseFormat(explanationFormat, "explanation");
+const explanationJsonSchema = zodResponseFormat(explanationFormat, "explanation");
 
-// Save the responseFormat JSON to a file so that we can remove zod dependency:
-const jsonSchema = JSON.stringify(responseFormat, null, 2);
-const content = `export const responseFormat = ${jsonSchema};`;
+// Save the explanationJsonSchema JSON to a file 
+// so that we can remove zod dependency:
+const jsonSchema = JSON.stringify(explanationJsonSchema, null, 2);
+const content = `export const explanationJsonSchema = ${jsonSchema};`;
 
-fs.writeFileSync("responseFormat.mjs", content);
+fs.writeFileSync("explanationJsonSchema.mjs", content);
