@@ -10,7 +10,7 @@ const explanationFormat = z.object({
 });
 
 const name = "explanation";
-export const explanationJsonSchema = {
+export const explanationBuilder = {
     name,
-    def: zodResponseFormat(explanationFormat, name)
+    schema: zodResponseFormat(explanationFormat, name)
 }
