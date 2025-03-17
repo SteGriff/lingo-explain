@@ -15,7 +15,7 @@ const openaiApi = {
     engine: new OpenAI(openaiProfile),
     model: 'gpt-4o-mini',
     responseFormat: explanationJsonSchema,
-    systemPrompt: 'You are a language reference tool. Explain the following sentence, giving concise two- or three- word definitions for each word/phrase.  Do not give the part of speech; only a concise definition.'
+    systemPrompt: 'You are a language reference tool. Explain the following sentence in English, giving concise two- or three- word definitions for each word/phrase.  Do not give the part of speech; only a concise definition.'
 };
 
 const deepseekApi = {
@@ -24,7 +24,7 @@ const deepseekApi = {
     responseFormat: {
         'type': 'json_object'
     },
-    systemPrompt: `You are a language reference tool. Explain the following sentence, giving concise two- or three- word definitions for each word/phrase.  Do not give the part of speech; only a concise definition.
+    systemPrompt: `You are a language reference tool. Explain the following sentence in English, giving concise two- or three- word definitions for each word/phrase.  Do not give the part of speech; only a concise definition.
 
 EXAMPLE INPUT:
 Thái độ quan trọng hơn trình độ
