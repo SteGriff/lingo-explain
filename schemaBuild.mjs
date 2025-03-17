@@ -1,19 +1,14 @@
-import { zodResponseFormat } from "openai/helpers/zod";
-import { z } from "zod";
 import fs from "fs";
+import { explanationJsonSchema } from "./schema-builders/explanation.schema.mjs";
 
-const explanationTerm = z.object({
-    term: z.string(),
-    definition: z.string()
-});
-const explanationFormat = z.object({
-    explanation: z.array(explanationTerm)
-});
-const explanationJsonSchema = zodResponseFormat(explanationFormat, "explanation");
+// Build each Schema JSON to a file 
+// so that we can remove zod dependency at runtime
 
-// Save the explanationJsonSchema JSON to a file 
-// so that we can remove zod dependency:
-const jsonSchema = JSON.stringify(explanationJsonSchema, null, 2);
-const content = `export const explanationJsonSchema = ${jsonSchema};`;
+const schemas = [explanationJsonSchema];
 
-fs.writeFileSync("explanationJsonSchema.mjs", content);
+for (const schema of schemas) {
+    console.log(schema);
+    const jsonSchema = JSON.stringify(schema.def, null, 2);
+    const content = `export const ${schema.name}JsonSchema = ${jsonSchema};`;
+    fs.writeFileSync(`schemas/${schema.name}JsonSchema.mjs`, content);
+}
