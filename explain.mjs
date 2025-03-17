@@ -1,5 +1,5 @@
 import OpenAI from 'openai';
-import { explanationJsonSchema } from './explanationJsonSchema.mjs';
+import { explanationJsonSchema } from './schemas/explanationJsonSchema.mjs';
 
 const openaiProfile = {
     baseURL: 'https://api.openai.com/v1',
